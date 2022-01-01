@@ -6,8 +6,10 @@ import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
 import net.pixeltastic.core.init.ModItems;
 import net.pixeltastic.core.init.ModRecipes;
+import net.pixeltastic.core.init.ModBlocks;
 
 import org.apache.logging.log4j.Logger;
 
@@ -32,6 +34,7 @@ public class Core
         logger = event.getModLog();
         ModItems.init();
         ModRecipes.init();
+        ModBlocks.init();
     }
 
     @EventHandler

@@ -13,7 +13,6 @@ import net.pixeltastic.core.items.ItemBasic;
 
 @Mod.EventBusSubscriber(modid=Core.MODID)
 public class ModItems {
-	
 	static Item elecrockbadge;
 	static Item waterbadge;
 	static Item flyingbadge;
@@ -31,10 +30,8 @@ public class ModItems {
 	static Item retributionmasterkeycard;
 	static Item dummyitem;
 	static Item debugitem;
-	static Item fakeportal;
 	static Item masterballpart;
 	static Item fakemasterball;
-	static Item amogusplush;
 	
 	static final CreativeTabs pixeltastic = (new CreativeTabs("pixeltastic") {
 		@Override
@@ -62,10 +59,8 @@ public class ModItems {
 		retributionmasterkeycard = new ItemBasic("retributionmasterkeycard").setCreativeTab(pixeltastic).setMaxStackSize(2);
 		dummyitem = new ItemBasic("dummyitem").setMaxStackSize(64);
 		debugitem = new ItemBasic("debugitem").setMaxStackSize(64);
-		fakeportal = new ItemBasic("fakeportal").setMaxStackSize(64);
 		masterballpart = new ItemBasic("masterballpart").setCreativeTab(pixeltastic).setMaxStackSize(64);
 		fakemasterball = new ItemBasic("fakemasterball").setCreativeTab(pixeltastic).setMaxStackSize(64);
-        amogusplush = new ItemBasic("amogusplush").setCreativeTab(pixeltastic).setMaxStackSize(1);
 	}
 	
 	@SubscribeEvent
@@ -87,10 +82,8 @@ public class ModItems {
 		event.getRegistry().registerAll(retributionmasterkeycard);
 		event.getRegistry().registerAll(dummyitem);
 		event.getRegistry().registerAll(debugitem);
-		event.getRegistry().registerAll(fakeportal);
 		event.getRegistry().registerAll(masterballpart);
 		event.getRegistry().registerAll(fakemasterball);
-		event.getRegistry().registerAll(amogusplush);
 	}
 	
 	@SubscribeEvent
@@ -112,10 +105,8 @@ public class ModItems {
 		registerRender(retributionmasterkeycard);
 		registerRender(dummyitem);
 		registerRender(debugitem);
-		registerRender(fakeportal);
 		registerRender(masterballpart);
 		registerRender(fakemasterball);
-		registerRender(amogusplush);
 	}
 	
 	private static void registerRender(Item item) {

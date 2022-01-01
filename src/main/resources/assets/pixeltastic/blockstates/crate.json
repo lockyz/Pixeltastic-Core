@@ -1,7 +1,7 @@
 {
     "variants": {
         "normal": [
-            { "model": "minecraft:cube" }
+            { "model": "pixeltastic:crate" }
         ]
     }
 }
