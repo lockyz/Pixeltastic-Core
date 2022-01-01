@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"  ],
+  "key": {
+    "A": [
+      {
+        "item": "pixeltastic:pokeballfragment",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "pixeltastic:pokeballpart",
+    "data": 0
+  }
+}

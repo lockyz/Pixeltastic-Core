@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAB",
+    "   ",
+    "   "  ],
+  "key": {
+    "A": [
+      {
+        "item": "pixeltastic:retributionkeycardpart",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "pixeltastic:retributionkeycardchip",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "pixeltastic:retributionkeycard",
+    "data": 0
+  }
+}

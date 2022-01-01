@@ -1,0 +1,12 @@
+[{
+	"modid": "pixeltastic",
+	"name": "Pixeltastic Core",
+	"description": "The coremod for the Pixelmon Tastic Minecraft Server.\n\nWelcome to Pixelmon Tastic",
+	"version": "1.1.1.0",
+	"mcversion": "1.12.2",
+	"url": "https://pixelmontastic.site",
+	"updateUrl": "http://pixelmontastic.site/mod/update.json",
+	"logoFile": "assets/pixeltastic/textures/logo.png",
+	"authorList": ["Robin Painter"],
+	"credits": "The Forge and FML guys. The Pixelmon Reforged development team."
+}]
