@@ -1,12 +1,17 @@
 # PixelTastic Core
 Pixelmon Tastic Core contains the custom items, tools, NPC skins within the Pixelmon Tastic Server.
 
-# Features
-Custom Items
+## Features
+- Custom Items
+- Custom Tools
+- Custom NPC Skins
 
-Custom Tools
-
-Custom NPC Skins
+### To Finish
+- [x] Basic Badges
+- [x] Custom Skins
+- [ ] Badge Textures
+- [ ] Block Textures
+- [ ] Custom Tools
 
 All these features combined allow us to run the Pixelmon Tastic Minecraft Server.
 
