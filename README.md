@@ -1,4 +1,3 @@
-<iframe src="https://www.cfwidget.com/557823?version=1.12.2" width="100%" style="border: none;"></iframe>
 # PixelTastic Core
 Pixelmon Tastic Core contains the custom items, tools, NPC skins within the Pixelmon Tastic Server.
 
