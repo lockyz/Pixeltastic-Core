@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "amogusplush",
 	"textures": {
 		"1": "pixeltastic:blocks/amogus_body",
 		"2": "pixeltastic:blocks/amogus_face_outline",

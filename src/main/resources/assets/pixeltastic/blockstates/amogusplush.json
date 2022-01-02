@@ -1,7 +1,5 @@
 {
   "variants": {
-    "axis=y": {"model": "pixeltastic:amogusplush"},
-    "axis=z": {"model": "pixeltastic:amogusplush", "x":  90},
-    "axis=x": {"model": "pixeltastic:amogusplush", "x": 90, "y": 90}
+    "normal": {"model": "pixeltastic:amogusplush"}
   }
 }

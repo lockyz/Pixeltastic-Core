@@ -1,6 +1,7 @@
 {
   "variants": {
-    "axis=z": { "model":  "pixeltastic:fakeportalew" },
-    "axis=x": { "model":  "pixeltastic:fakeportalns" }
+    "normal": [
+      { "model": "pixeltastic:fakeportalns" }
+    ]
   }
 }
